@@ -4,7 +4,7 @@ Write a console program that reads text from `STDIN` and spells it out with a co
 
 The program shall take as command line argument the file name of a .txt file with the definition of a spelling alphabet as single command line argument.
 
-Two spelling alphabet text files, `icao.txt` and `german.txt` are provided as examples:
+Two spelling alphabet text files, [icao.txt](/icao.txt) and [german.txt](/german.txt) are provided as examples:
 
 [icao.txt](/icao.txt)
 ```
