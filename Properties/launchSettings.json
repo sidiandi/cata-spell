@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "spell": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\src\\spell\\german.txt"
+    }
+  }
+}
