@@ -2,8 +2,7 @@
 
 Dictionary<char, string> ReadSpellFile(string spellFile) =>
     File.ReadAllText(spellFile).Split('\n')
-        .Select(_ => _.Trim())
-        .Select(_ => _.Split('\t'))
+        .Select(_ => System.Text.RegularExpressions.Regex.Split(_.Trim(), @"\s+"))
         .ToDictionary(_ => Char.ToUpper(_[0][0]), _ => _[1]);
 
 var spelling = ReadSpellFile(spellFile);
